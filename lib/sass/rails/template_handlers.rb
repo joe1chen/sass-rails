@@ -91,7 +91,8 @@ module Sass::Rails
         :load_paths => load_paths,
         :custom => {
           :resolver => resolver
-        }
+        },
+        :sprockets_context => scope
       )
     end
 
